@@ -1,0 +1,6 @@
+pip install os
+pip install requests
+pip install pyfiglet
+pip install time
+pip install termcolor
+pip install threading
